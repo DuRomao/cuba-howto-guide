@@ -46,6 +46,10 @@ export default defineConfig(({ command }) => {
 
   return {
     root: 'starter-kit',
+    build: {
+        outDir: '../dist',  // <-- gera o dist na raiz do projeto
+        emptyOutDir: true
+      }
     cacheDir: false, // Disable Vite's cache
     server: {
       open: "template/index.html", // Open this file in the browser
