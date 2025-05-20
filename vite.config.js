@@ -45,6 +45,7 @@ export default defineConfig(({ command }) => {
   }
 
   return {
+    base: '/cuba/',
     root: 'starter-kit',
     build: {
         outDir: '../dist',  // <-- gera o dist na raiz do projeto
