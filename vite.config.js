@@ -45,7 +45,6 @@ export default defineConfig(({ command }) => {
   }
 
   return {
-    base: '/cuba/',
     root: 'starter-kit',
     cacheDir: false, // Disable Vite's cache
     server: {
