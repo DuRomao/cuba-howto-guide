@@ -1,6 +1,6 @@
 {
   "name": "my-vite-project",
-  "build": "vite build"
+  "
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,7 @@
     "postinstall": "npx tailwindcss -i ./assets/scss/tailwind.css -o ./assets/css/tailwind.css",
     "watch:sass": "sass --watch assets/scss/style.scss:assets/css/style.css",
     "watch:tailwind": "npx tailwindcss -i ./assets/scss/tailwind.css -o ./assets/css/tailwind.css --watch",
-    "dev": "npm run watch:sass & npm run watch:tailwind & vite"
+    "build": "vite build"
   },
   "devDependencies": {
     "autoprefixer": "10.4.20",
