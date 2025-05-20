@@ -36,13 +36,16 @@ const startPugWatcher = () => {
   console.log("Watching for Pug file changes...");
 };
 
+
+
+
 export default defineConfig(({ command }) => {
   if (command === "serve") {
     startPugWatcher(); // Start the Pug watcher in development mode
   }
 
   return {
-    root: "", // Root directory
+    root: "./starter-kit", // Root directory
     cacheDir: false, // Disable Vite's cache
     server: {
       open: "template/index.html", // Open this file in the browser
